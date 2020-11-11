@@ -3,6 +3,7 @@
 }
 h1{
     text-align:center;
+    text-emphasis-color: purple;
 }
 #ch{
    margin: 2px;
