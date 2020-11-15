@@ -14,25 +14,20 @@
   .section-2 {
     background-color: red;
   }  
-  @media(max-width:500px){
-    .section-1, .section-2 {
-        width: 90%;
-        font-size: 32px;
-      }
+  @media  (max-width:500px) {
+    body {
+      background-color: deepskyblue;
+    }
   }
-  @media(min-width:600px) and (max-width:900px){
-    .section-1 {
-        width: 30%;
-        font-size: 24px;
-      }
-      .section-2 {
-        width: 55%;
-        background-color: green;
-      }      
+  @media (min-width:600px) and (max-width:900px){
+    p  {
+        color: blue;
+           } 
+           body {
+            background-color: purple;
+          }       
 }
-  @media(min-width:1000px){
-    .section-1, .section-2 {
-        width: 90%;
-        font-size: 32px;
-      }
+  @media  (min-width:1000px) {
+    body {
+      background-color: greenyellow;
     }
